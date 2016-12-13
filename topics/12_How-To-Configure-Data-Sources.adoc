@@ -14,7 +14,7 @@ As mentioned in the Getting Started section, ReportPlus provides you with the op
 
 * *Analytics* (link:#GoogleAnalytics[Google Analytics]).
 * *Content Managers* (link:#SharePointServer[SharePoint Server], link:#Dropbox[Dropbox], link:#GoogleDrive[Google Drive], link:#Box[Box], link:#OneDrive[OneDrive]).
-* *CRM* or *Customer Relationship Managers* (link:#DynamicsCRM[Dynamics CRM], link:#Salesforce[Salesforce]).
+* *CRM* or *Customer Relationship Managers* (link:#DynamicsCRM[Microsoft Dynamics CRM], link:#Salesforce[Salesforce]).
 * *Datastores* (link:#MicrosoftAnalysisServices[Microsoft Analysis Services], link:#MySQL[MySQL], link:#Oracle[Oracle], link:#PostgreSQLServer[PostgreSQL Server], link:#MicrosoftReportingServices[Microsoft Reporting Services], link:#MicrosoftSQLServer[Microsoft SQL Server], link:#Sybase[Sybase]).
 * link:http://help.infragistics.com/reportplus/multiple-data-sources[*Multiple Data Sources*]
 * *Spreadsheets* (link:#ExcelCSVGoogleSheets[Excel, CSV or Google Sheets]).
@@ -79,17 +79,6 @@ When working within ReportPlus, you will be able to use a wide variety of files:
 
 * *Spreadsheets*: Excel (.xls, .xlsx) or CSV, which you can use dynamically within ReportPlus.
 * *Other files* (including images or document files such as PDFs, texts, etc.), which will be displayed in a preview mode only.
-
-[#DynamicsCRM]
-== Dynamics CRM
-
-To configure a Dynamics CRM Data Source, you will need to enter the following information:
-
-image::images/ConfiguringDataSources/EnterDynamicsCRMdetails_Desktop.png[EnterDynamicsCRMdetails_Desktop]
-
-a. *Data Source Name*: this field will be displayed in the Data Sources list.
-b. *URL*: the URL for the Dynamics CRM site (for example, http://crm.YourCompany.local)
-c. *Account*: after clicking _Next_, a new dialog will be displayed. You can either enter new credentials for Dynamics CRM or select existing ones if applicable.
 
 [#ExcelCSVGoogleSheets]
 == Excel, CSV or Google Sheets
@@ -264,6 +253,17 @@ c. *Server Name*: the HTTP eService URL to the server. For example, _10.1.0.15/o
 
 d. *Port*: if applicable, the server port details. If left empty, the default value will be used.
 e. *Account*: after clicking _Next_, a new dialog will be displayed. You can either enter new credentials for Analysis Services Server or select existing ones if applicable.
+
+[#DynamicsCRM]
+== Microsoft Dynamics CRM
+
+To configure a Dynamics CRM Data Source, you will need to enter the following information:
+
+image::images/ConfiguringDataSources/EnterDynamicsCRMdetails_Desktop.png[EnterDynamicsCRMdetails_Desktop]
+
+a. *Data Source Name*: this field will be displayed in the Data Sources list.
+b. *URL*: the URL for the Dynamics CRM site (for example, http://crm.YourCompany.local)
+c. *Account*: after clicking _Next_, a new dialog will be displayed. You can either enter new credentials for Dynamics CRM or select existing ones if applicable.
 
 [#MicrosoftReportingServices]
 == Microsoft Reporting Services

@@ -51,7 +51,7 @@ In the case of link:http://help.infragistics.com/reportplus/how-to-configure-dat
 
 image::images/DashboardCreationProcess/NewSharePointConnectionBrowse_Desktop.png[NewSharePointConnectionBrowse_Desktop]
 
-Another example would be to configure a connection to a link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#MicrosoftSQLServer[SQL Server] database. In this case you would have to navigate to the New Data Source section, then click SQL Server.
+Another example would be to configure a connection to a link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#MicrosoftSQLServer[SQL Server] database. In this case you would have to navigate to the New Data Source section, then click Microsoft SQL Server.
 
 image::images/ConfiguringDataSources/EnterSQLServerdetails_desktop.png[EnterSQLServerdetails_desktop]
 

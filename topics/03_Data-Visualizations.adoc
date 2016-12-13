@@ -12,12 +12,13 @@
 
 In order for users to get the most insight possible out of business data, ReportPlus Desktop provides several options to customize the way information is visualized. This article describes different data visualization & styling options available when presenting data and building your dashboard.
 
-There are six visualization types:
+There are eight visualization types:
 
 * link:#GridView[Grid View]
 * link:#TextView[Text View]
 * link:#MapView[Map View]
 * link:#HeatMapView[Heat Map View]
+* link:#TreeMapView[Tree Map View]
 * link:#WebView[Web View]
 * link:#GaugeViews[Gauge Views], including the link:#LinearGauge[Linear], link:#CircularGauge[Circular], link:#TextGauge[Text], and link:#BulletGraphGauge[Bullet Graph] gauges.
 * link:#ChartsVisualizations[Charts], including both single-series and multiple-series charts.
@@ -127,9 +128,47 @@ As with the Map View, the map type displayed can either be the standard politica
 
 === Heat Map Layers
 
-You can add an additional layer to your Heat Map visualization by tapping the *Pins and HeatMap* option under _Layers_. The pins will show the exact location of your data while retaining the visual representation of the heat map.
+You can add an additional layer to your Heat Map visualization by clicking the *Pins and HeatMap* option under _Layers_. The pins will show the exact location of your data while retaining the visual representation of the heat map.
 
 image::images/DataVisualizations/PivotEditorViewHeatMapLayersView_Desktop.png[PivotEditorViewHeatMapLayersView_Desktop]
+
+=== Assigning Weight to a Heat Map variable
+
+The Heat Map offers a simple yet effective way to display information in relation to the point of distribution through color intensity. However, you might want to display some information more prominently in the map, which is when the *Weight* you assign to a variable comes into play. Regular Heat Maps only consider the point of distribution to determine the color intensity, but if you use the _Weight_ variable, the Heat Map will use it to determine how much intensity one pin contributes.
+
+[#TreeMapView]
+== Tree Map View
+
+The Tree Map visualization displays information hierarchically using tiles of different sizes across your widget. The visualization aims to help you discover patterns, with the proportion of each rectangle representing a different metric.
+
+image::images/DataVisualizations/PivotEditorViewTreeMapView_Desktop.png[PivotEditorViewTreeMapView_Desktop]
+
+The size of each tile will be determined by the field selected in the _Value Column_ of the Tree Map Settings.
+
+Tree Maps are useful to display large quantities of data and, in addition, the visualization displays your data according to the screen size available. When maximizing or viewing the widget in preview mode, shapes change to adapt to the new screen size.
+
+image::images/DataVisualizations/PivotEditorViewTreeMapViewAdapted_Desktop.png[PivotEditorViewTreeMapViewAdapted_Desktop]
+
+=== Tree Map Layouts
+
+There are three different layouts to choose from when using the Tree Map:
+
+* *Squarified*: this is the default layout for the Tree Map. All data is represented in tiles, which makes it easier to identify patterns and relations between similar data.
+* *Slice and Dice*: the direction is changed to a horizontal-only layout, where the sizes of each "slice" is sized according to the field selected in the _Value Column_. This is useful with small amounts of data.
+* *Strip*: the strip layout is a hybrid between the Squarified and the Slice-and-Dice layouts. The direction is changed to a horizontal layout, but with the tiles used in the squarified layout.
+
+To change layouts, go to *Visualization Settings*, access the _Layout_ dropdown, and select the layout you need.
+
+image::images/DataVisualizations/PivotEditorViewTreeMapViewLayout_Desktop.png[PivotEditorViewTreeMapViewLayout_Desktop]
+
+=== Show Details
+
+In addition to the layout, you can also manage the level of detail you want your Tree Map to have. If you add one or more columns under _Columns_, you will be able to click *"Show Details"*. This will break down the tiles defined by each row based on the field dropped into the Columns section. 
+
+Let's look at the following example. The "State" field has been dropped in Rows, and the "Cities" field in Columns. If the "Show Details" checkbox is clicked, a parent tile with the states will appear, and it will be broken down based on the cities that are part of that particular state as defined in the Data Source.
+
+image::images/DataVisualizations/PivotEditorViewTreeMapShowDetails_Desktop.png[PivotEditorViewTreeMapShowDetails_Desktop]
+
 
 [#WebView]
 == Web View

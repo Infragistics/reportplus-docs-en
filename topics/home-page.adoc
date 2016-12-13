@@ -10,9 +10,8 @@
 
 = Welcome to the ReportPlus Desktop help!
 
-
-
 image::images/HomeDesktopImage.png[HomeDesktopImage]
+
 {nbsp} +
 
 ReportPlus brings its powerful creation and viewing experience to Windows. Easily create dashboards and reports with an intuitive drag and drop interface.
@@ -29,14 +28,12 @@ ReportPlus brings its powerful creation and viewing experience to Windows. Easil
 
 |image:images/ConnectDataSources.png[ConnectDataSources] |link:http://help.infragistics.com/reportplus/how-to-configure-data-sources[*Connect to different data sources*]: Connect to popular Enterprise data sources without setting anything up on the server. Access 20 different data sources, including link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#ExcelCSVGoogleSheets[Excel and Google Sheets], link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#MicrosoftSQLServer[SQL Server], link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#Oracle[Oracle], link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#MySQL[MySQL], link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#GoogleAnalytics[Google Analytics] and more.
 
-|image:images/NavigateDashboards.png[NavigateDashboards] |link:http://help.infragistics.com/reportplus/dashboard-styling[*Style your dashboards*]: Dashboards are more than the sum of their parts. Style them with one of the more than 20 themes available.
+|image:images/StyleDashboards.png[StyleDashboards.png] |link:http://help.infragistics.com/reportplus/dashboard-styling[*Style your dashboards*]: Dashboards are more than the sum of their parts. Style them with one of the more than 20 themes available.
 
-|image:images/StyleDashboards.png[StyleDashboards.png] |link:http://help.infragistics.com/reportplus/data-visualizations[*Design dashboards*]: Choose among 26 different data visualization options to visualize your data. Choose from link:http://help.infragistics.com/reportplus/data-visualizations#ChartsVisualizations[multiple chart types], link:http://help.infragistics.com/reportplus/data-visualizations#MapView[map view], link:http://help.infragistics.com/reportplus/data-visualizations#GaugeViews[gauge view] and more. You can even use your own link:http://help.infragistics.com/reportplus/diy-visualization[HTML-based visualization].
+|image:images/NavigateDashboards.png[NavigateDashboards] |link:http://help.infragistics.com/reportplus/data-visualizations[*Design dashboards*]: Choose among 26 different data visualization options to visualize your data. Choose from link:http://help.infragistics.com/reportplus/data-visualizations#ChartsVisualizations[multiple chart types], link:http://help.infragistics.com/reportplus/data-visualizations#MapView[map view], link:http://help.infragistics.com/reportplus/data-visualizations#GaugeViews[gauge view] and more. You can even use your own link:http://help.infragistics.com/reportplus/diy-visualization[HTML-based visualization].
 
 |image:images/CustomizeWidgets.png[CustomizeWidgets] |link:http://help.infragistics.com/reportplus/data-filters[*Customize widgets & dashboards*]: link:http://help.infragistics.com/reportplus/data-filters#SortingSettings[Sort], link:http://help.infragistics.com/reportplus/data-filters#FieldSpecificFilters[filter], and link:http://help.infragistics.com/reportplus/data-filters#PivotTableSettings[summarize] your information. Turn data into information. link:http://help.infragistics.com/reportplus/data-filters#FieldSettings[Take it to the level of granularity you need] to better fit your analysis scenarios.
 
 |image:images/SaveDashboard.png[SaveDashboard] |*link:http://help.infragistics.com/reportplus/getting-started[Access], link:http://help.infragistics.com/reportplus/dashboard-creating-process#_sharing_insights[Share] and link:http://help.infragistics.com/reportplus/export-options[Export]*: Access your dashboards anywhere; even when you are offline, your dahsboards will by synched across all your devices (including iOS and Android). You can also share your insights with other ReportPlus users for better collaboration or export dashboards as PDF, PowerPoint slides, or images. Make it easier for everyone in the team to tailor your dashboards and help improve the decision making for everyone.
 
 |===
-
-link:http://www.infragistics.com/enterprise-solutions/enterprise-mobility/reportplus[Click here if you are looking for ReportPlus' website.]
