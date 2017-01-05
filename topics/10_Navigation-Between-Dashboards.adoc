@@ -3,7 +3,7 @@
 {
     "fileName": "navigation-between-dashboards",
     "controlName": [],
-    "tags": [] 
+    "tags": []
 }
 |metadata|
 ////

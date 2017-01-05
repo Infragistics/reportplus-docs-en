@@ -1,6 +1,10 @@
 ﻿////
 |metadata|
-{"fileName":"working-with-data-sources","controlName":[],"tags":[]}
+{
+    "fileName": "working-with-data-sources",
+    "controlName": [],
+    "tags": []
+}
 |metadata|
 ////
 

@@ -3,7 +3,7 @@
 {
     "fileName": "configuration-settings",
     "controlName": [],
-    "tags": [] 
+    "tags": []
 }
 |metadata|
 ////
@@ -73,4 +73,4 @@ The following data source settings are read-only and meant to be informative onl
 * *Last Update*. Last time the data was retrieved from the widget's data source. 
 * *Name*. Name of the data set retrieved from the data source. For instance, if the data source is a database, it will display the name of the table or view the data is coming from. This is informative and read-only.
 * *Type*. The type of file retrieved from the data source. For instance, if the data source is an Excel file, it will display a "LOCALFILE" label.
-* *Path*. Path in the data source to the data set used by the widget. For instance, if the data set comes from an link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#MicrosoftSQLServer[SQL server], this option will display the Database Name, Table and Schema. On the other hand, if the information comes from a link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#SharePointServer[SharePoint] connection, it will display the route in the server to the list or the document within a document library.
+* *Path*. Path in the data source to the data set used by the widget. For instance, if the data set comes from an link:how-to-configure-data-sources#MicrosoftSQLServer[SQL server], this option will display the Database Name, Table and Schema. On the other hand, if the information comes from a link:how-to-configure-data-sources#SharePointServer[SharePoint] connection, it will display the route in the server to the list or the document within a document library.
