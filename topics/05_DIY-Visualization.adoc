@@ -3,7 +3,7 @@
 {
     "fileName": "diy-visualization",
     "controlName": [],
-    "tags": [] 
+    "tags": []
 }
 |metadata|
 ////
@@ -27,7 +27,7 @@ Keep in mind that:
 
 A gallery with the following custom html visualizations is provided to be used as samples:
 
-* *Hello World*. It generates a table with the data set retrieved from ReportPlus. At the link:http://help.infragistics.com/reportplus/diy-visualization#_creating_a_custom_visualization_step_by_step[end] of this section, there's a step by step tutorial that shows how to reproduce this sample.
+* *Hello World*. It generates a table with the data set retrieved from ReportPlus. At the link:diy-visualization#_creating_a_custom_visualization_step_by_step[end] of this section, there's a step by step tutorial that shows how to reproduce this sample.
 
 * *U.S. States*. Map showing the 50 states of the US. It expects a data set with two columns: the first one with the two-letter state code, the second with a number displayed in the state's tooltip. If conditional formatting is enabled for the number field, then the state's background colors will be set accordingly. For example, the visualization below shows states population with conditional formatting turned on.
 
@@ -204,4 +204,3 @@ In this case we iterate over the tabularData.data array creating table rows and 
 			<div id="myTable" style="height:100%"></div>
 		</body>
 	</html>
-

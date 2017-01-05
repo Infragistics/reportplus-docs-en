@@ -124,14 +124,16 @@ The Heat Map view displays information graphically on a map with colors. As with
 
 image::images/DataVisualizations/PivotEditorViewHeatMapView_Desktop.png[PivotEditorViewHeatMapView_Desktop]
 
-As with the Map View, the map type displayed can either be the standard political map, a satellite picture or a hybrid between the two. The Heat Map settings has additional settings to configure, including Layers and link:#GeoLocation[Geo Location]. *Geocoding is not supported in the Heat Map visualization*.
+As with the Map View, the map type displayed can either be the standard political map, a satellite picture or a hybrid between the two. The Heat Map settings has additional settings to configure, including link:#HeatMapLayers[Layers], link:#GeoLocation[Geo Location] and link:#WeightHeatMap[Weight]. *Geocoding is not supported in the Heat Map visualization*.
 
+[#HeatMapLayers]
 === Heat Map Layers
 
 You can add an additional layer to your Heat Map visualization by clicking the *Pins and HeatMap* option under _Layers_. The pins will show the exact location of your data while retaining the visual representation of the heat map.
 
 image::images/DataVisualizations/PivotEditorViewHeatMapLayersView_Desktop.png[PivotEditorViewHeatMapLayersView_Desktop]
 
+[#WeightHeatMap]
 === Assigning Weight to a Heat Map variable
 
 The Heat Map offers a simple yet effective way to display information in relation to the point of distribution through color intensity. However, you might want to display some information more prominently in the map, which is when the *Weight* you assign to a variable comes into play. Regular Heat Maps only consider the point of distribution to determine the color intensity, but if you use the _Weight_ variable, the Heat Map will use it to determine how much intensity one pin contributes.

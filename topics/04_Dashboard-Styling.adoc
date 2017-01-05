@@ -3,7 +3,7 @@
 {
     "fileName": "dashboard-styling",
     "controlName": [],
-    "tags": ["dashboard", "styling", "themes", "change"]
+    "tags": ["dashboard","styling","themes","change"]
 }
 |metadata|
 ////

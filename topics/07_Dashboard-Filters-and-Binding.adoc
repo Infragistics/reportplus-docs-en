@@ -3,7 +3,7 @@
 {
     "fileName": "dashboard-filters-and-binding",
     "controlName": [],
-    "tags": ["data filters"] 
+    "tags": ["data filters"]
 }
 |metadata|
 ////
@@ -64,7 +64,7 @@ In this dialog, you must configure:
 [#ParameterBinding]
 == Parameter Binding
 
-The data sets used in the creation of a dashboard may have parameters depending on the data source they were retrieved form. For instance, if an Excel spreadsheet is used as a widget's data source, then it will have as parameters the _Sheet Name_ used, and the range of cells within than sheet. On the other hand, data sources such as link:http://help.infragistics.com/reportplus/working-with-data-sources#WorkingWithMicrosoftReportingServices[Reporting Services] reports have their own parameters which are defined as part of the report definition. 
+The data sets used in the creation of a dashboard may have parameters depending on the data source they were retrieved form. For instance, if an Excel spreadsheet is used as a widget's data source, then it will have as parameters the _Sheet Name_ used, and the range of cells within than sheet. On the other hand, data sources such as link:working-with-data-sources#WorkingWithMicrosoftReportingServices[Reporting Services] reports have their own parameters which are defined as part of the report definition. 
 
 Dashboard Filters allow to modify these parameters dynamically depending on the value selection in the dashboard filter. This can be used for instance to target different sheets within one same Excel spreadsheet. On occasion Excel spreadsheets have different sheets with the same structure of data, but with different dimensions of analysis, such as different months, or different clients, etc. Parameter binding enables to switch the Excel sheet used, or the parameter sent to the server with a simple click in the dashboard filters list. 
 
@@ -77,7 +77,7 @@ Select the Widget fields/parameters option in the segmented control. This will b
 [#URLBinding]
 == URL Binding
 
-For some data sources, there's another type of binding available called URL binding, which allows you to link dashboard filters to data sets or assets that can be retrieved with a URL, such as in link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#SharePointServer[SharePoint], link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#ODataService[OData] and link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#WebResource[Web Resources].
+For some data sources, there's another type of binding available called URL binding, which allows you to link dashboard filters to data sets or assets that can be retrieved with a URL, such as in link:how-to-configure-data-sources#SharePointServer[SharePoint], link:how-to-configure-data-sources#ODataService[OData] and link:how-to-configure-data-sources#WebResource[Web Resources].
 
 If this is the case, then a different configuration option is made available in the Binding Pane. You will be able to turn on URL Binding, and define a URL Binding Path expression.
 

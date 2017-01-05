@@ -16,7 +16,7 @@ As mentioned in the Getting Started section, ReportPlus provides you with the op
 * *Content Managers* (link:#SharePointServer[SharePoint Server], link:#Dropbox[Dropbox], link:#GoogleDrive[Google Drive], link:#Box[Box], link:#OneDrive[OneDrive]).
 * *CRM* or *Customer Relationship Managers* (link:#DynamicsCRM[Microsoft Dynamics CRM], link:#Salesforce[Salesforce]).
 * *Datastores* (link:#MicrosoftAnalysisServices[Microsoft Analysis Services], link:#MySQL[MySQL], link:#Oracle[Oracle], link:#PostgreSQLServer[PostgreSQL Server], link:#MicrosoftReportingServices[Microsoft Reporting Services], link:#MicrosoftSQLServer[Microsoft SQL Server], link:#Sybase[Sybase]).
-* link:http://help.infragistics.com/reportplus/multiple-data-sources[*Multiple Data Sources*]
+* link:multiple-data-sources[*Multiple Data Sources*]
 * *Spreadsheets* (link:#ExcelCSVGoogleSheets[Excel, CSV or Google Sheets]).
 * *Social* (link:#Facebook[Facebook], link:#Twitter[Twitter]).
 * *Other* (link:#ODataService[OData Service], link:#WebResource[WebResource])

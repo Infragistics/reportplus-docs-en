@@ -27,13 +27,13 @@ A new window will pop up displaying the defined data sources. You can configure 
 
 If working in Edit Mode, you will see the *Undo* and *Redo* buttons on the top left corner, and the *Preview*, *Themes*, *Merge*, *Help* and *Additional Actions* buttons on the top right corner. 
 
-A panel to the right, which corresponds to the Dashboard Filters, can be expanded by clicking on the funnel icon. For more information on Dashboard Filters, check link:http://help.infragistics.com/reportplus/dashboard-filters-and-binding[this section].
+A panel to the right, which corresponds to the Dashboard Filters, can be expanded by clicking on the funnel icon. For more information on Dashboard Filters, check link:dashboard-filters-and-binding[this section].
 
 == Managing Data Source Connections
 
-In order to enable the creation of dashboards, ReportPlus provides the capacity to connect to a number of enterprise data sources to retrieve the information from. The ReportPlus application connects directly to the link:http://help.infragistics.com/reportplus/how-to-configure-data-sources[supported data sources], meaning it does not require any changes to be made on the server side. For a user to be able to create a connection to a data source, they need to have a set of credentials with permissions to read the data. ReportPlus supports more than 20 data source types, namely Content Managers, CRMs, Datastores, Social Networks, Web Analytics and others. Users can also join multiple data sources to create a *Composite* data source. For more information on creating one, check out the link:http://help.infragistics.com/reportplus/multiple-data-sources[Multiple Data Sources] section.
+In order to enable the creation of dashboards, ReportPlus provides the capacity to connect to a number of enterprise data sources to retrieve the information from. The ReportPlus application connects directly to the link:how-to-configure-data-sources[supported data sources], meaning it does not require any changes to be made on the server side. For a user to be able to create a connection to a data source, they need to have a set of credentials with permissions to read the data. ReportPlus supports more than 20 data source types, namely Content Managers, CRMs, Datastores, Social Networks, Web Analytics and others. Users can also join multiple data sources to create a *Composite* data source. For more information on creating one, check out the link:multiple-data-sources[Multiple Data Sources] section.
 
-Creating dashboards based on link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#ExcelCSVGoogleSheets[Excel spreadsheets or CSV files] is a common scenario. It's possible to do this in three ways: pulling it from a local repository, pulling it from a content repository in the cloud or pulling it from a public URL configured as a web resource.
+Creating dashboards based on link:how-to-configure-data-sources#ExcelCSVGoogleSheets[Excel spreadsheets or CSV files] is a common scenario. It's possible to do this in three ways: pulling it from a local repository, pulling it from a content repository in the cloud or pulling it from a public URL configured as a web resource.
 
 === Creating a new Data Source Connection
 
@@ -41,17 +41,17 @@ The _New Dashboard_ button on the top left pane prompts the new data source wiza
 
 image:images/DashboardCreationProcess/NewDataSourceWizardDialog.png[NewDataSourceWizardDialog]
 
-The first input you need to provide is what type of data source you wish to configure. For instance, suppose you'd like to create a connection to a link:http://help.staging.infragistics.local/reportplus/how-to-configure-data-sources#SharePointServer[_SharePoint_ site]. In order to do this, you would have to navigate to the _Content Managers_ section, then click _SharePoint_. Once you do this, you are expected to enter information such as the URL of the SharePoint site, and authentication credentials such as user, domain, and password information. 
+The first input you need to provide is what type of data source you wish to configure. For instance, suppose you'd like to create a connection to a link:how-to-configure-data-sources#SharePointServer[_SharePoint_ site]. In order to do this, you would have to navigate to the _Content Managers_ section, then click _SharePoint_. Once you do this, you are expected to enter information such as the URL of the SharePoint site, and authentication credentials such as user, domain, and password information. 
 
 image::images/DashboardCreationProcess/NewSharePointConnectionDialog_Desktop.png[NewSharePointConnectionDialog_Desktop]
 
 The specific fields required to configure a connection vary between the different data sources. Once you have entered all the required information you must click on _Connect_. This will trigger a _verification_ window, which attempts to establish a connection with the data source, and confirms whether it succeded or not. If it succeeded, you will be taken to a _Browse for a Data Source_ panel, where you can navigate the contents of this new data source by selecting it or clicking the "Select" button.
 
-In the case of link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#SharePointServer[SharePoint] connections you can navigate the hierarchy of sites, subsites, and lists. In the dashboard creation process you can use files, such as Excel spreadsheets hosted in document libraries. 
+In the case of link:how-to-configure-data-sources#SharePointServer[SharePoint] connections you can navigate the hierarchy of sites, subsites, and lists. In the dashboard creation process you can use files, such as Excel spreadsheets hosted in document libraries. 
 
 image::images/DashboardCreationProcess/NewSharePointConnectionBrowse_Desktop.png[NewSharePointConnectionBrowse_Desktop]
 
-Another example would be to configure a connection to a link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#MicrosoftSQLServer[SQL Server] database. In this case you would have to navigate to the New Data Source section, then click Microsoft SQL Server.
+Another example would be to configure a connection to a link:how-to-configure-data-sources#MicrosoftSQLServer[SQL Server] database. In this case you would have to navigate to the New Data Source section, then click Microsoft SQL Server.
 
 image::images/ConfiguringDataSources/EnterSQLServerdetails_desktop.png[EnterSQLServerdetails_desktop]
 
@@ -130,14 +130,14 @@ image::images/DashboardCreationProcess/WidgetEditorPanes_Desktop.png[WidgetEdito
 - The *upper* section, where you can preview the final result.
 - The *lower* section, where you will find the Pivot Table editor. This tool is meant to help you slice-and-dice data according to your needs.
 * *The right pane*, which has six sub-sections:
-- link:http://help.infragistics.com/reportplus/data-visualizations[*Visualizations*], where you can choose your desired visualization.
+- link:data-visualizations[*Visualizations*], where you can choose your desired visualization.
 - *Visualization Settings*, where you can configure the settings for the visualization you have selected.
-- link:http://help.infragistics.com/reportplus/dashboard-filters-and-binding[*Dashboard Filter Connections*], which allows you to centrally configure the binding between a dashboard filter and your widget.
-- link:http://help.infragistics.com/reportplus/navigation-between-dashboards[*Link to Dashboard/URL*], where you can add links to a different dashboard or a URL.
-- link:http://help.infragistics.com/reportplus/dashboard-filters-and-binding#ParameterBinding[*Parameters*], which bind a dashboard filter to a particular parameter of the widget dataset.
-- link:http://help.infragistics.com/reportplus/configuration-settings#WidgetGeneralSettings[*General*], from where you can change the general settings for your widget.
+- link:dashboard-filters-and-binding[*Dashboard Filter Connections*], which allows you to centrally configure the binding between a dashboard filter and your widget.
+- link:navigation-between-dashboards[*Link to Dashboard/URL*], where you can add links to a different dashboard or a URL.
+- link:dashboard-filters-and-binding#ParameterBinding[*Parameters*], which bind a dashboard filter to a particular parameter of the widget dataset.
+- link:configuration-settings#WidgetGeneralSettings[*General*], from where you can change the general settings for your widget.
 
-For detailed information regarding the Widget Editor, check the link:http://help.infragistics.com/reportplus/data-filters#_widget_editor[Data Filters] section.
+For detailed information regarding the Widget Editor, check the link:data-filters#_widget_editor[Data Filters] section.
 
 After you're done building the widget and selecting the appropriate visualizations, click on the _Done_ button on the top left corner to return to the dashboard editor. In the Dashboard editor, you can control the layout, size and location of widgets by simply dragging widgets and their borders.
 
@@ -200,4 +200,4 @@ image::images/DashboardCreationProcess/DashboardActionsExport_Desktop.png[Dashbo
 * *Export a Screenshot*. Email a screen capture of the dashboard.
 * *Export File*. Export the dashboard locally.
 
-In addition, you can change the Export Settings, including the Author Name, Company Name, Color and Logo and the Table Settings. For details on how to configure exported dashboards, check out the link:http://help.infragistics.com/reportplus/export-options[Export Options] section.
+In addition, you can change the Export Settings, including the Author Name, Company Name, Color and Logo and the Table Settings. For details on how to configure exported dashboards, check out the link:export-options[Export Options] section.

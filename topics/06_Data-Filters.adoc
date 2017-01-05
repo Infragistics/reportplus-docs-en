@@ -34,7 +34,7 @@ The left hand pane supports the following actions over the data table:
 [circle]
 * *Hide All or Show all fields*. These buttons allows to fast track visibility changes in all the fields at the same time. This is very useful if you need to have only a small subset of columns visible. You can always make all columns invisible and then just change the visibility state for the ones you need to see.
 * *Transposing of data table*. The button on the bottom left corner allows for the user to switch columns for rows. Only the first 50 rows are transposed.
-* *Adding calculated or hierarchical fields*. The + button on the left top bar allows to link:http://help.infragistics.com/reportplus/data-filters#CalculatedFields[add calculated or hierarchical fields].
+* *Adding calculated or hierarchical fields*. The + button on the left top bar allows to link:data-filters#CalculatedFields[add calculated or hierarchical fields].
 
 [#FieldSettings]
 == Field Settings
@@ -305,7 +305,7 @@ In order to define a quick filter, drag and drop a column in the Filters placeho
 
 image::images/DataFilters/PivotEditorViewQuickFilter_Desktop.png[PivotEditorViewQuickFilter_Desktop]
 
-The quick filter will be displayed under _Widget Filters_, in the right hand pane, when the widget is maximized in the Dashboard view mode. As with link:http://help.infragistics.com/reportplus/dashboard-filters-and-binding[Dashboard Filters], this enables a dynamic filtering of the widget contents as the quick filter selection changes.
+The quick filter will be displayed under _Widget Filters_, in the right hand pane, when the widget is maximized in the Dashboard view mode. As with link:dashboard-filters-and-binding[Dashboard Filters], this enables a dynamic filtering of the widget contents as the quick filter selection changes.
 
 image::images/DataFilters/DashboardViewQuickFilterDate_Desktop.png[DashboardViewQuickFilterDate_Desktop]
 

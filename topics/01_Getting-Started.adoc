@@ -3,7 +3,7 @@
 {
     "fileName": "getting-started",
     "controlName": [],
-    "tags": ["dashboard", "sharing", "widget", "editing"]
+    "tags": ["dashboard","sharing","widget","editing"]
 }
 |metadata|
 ////
@@ -58,11 +58,11 @@ image::images/GettingStarted/FlipGrid_Desktop.png[FlipGrid_Desktop]
 
 It is possible to *filter information* at a widget or a dashboard level. 
 
-* _Widget filters_ (a.k.a. link:http://help.staging.infragistics.local/reportplus/data-filters#QuickFilters[QuickFilters]) are displayed in a collapsible side panel under _Widget Filters_ once a widget is maximized.
+* _Widget filters_ (a.k.a. link::data-filters#QuickFilters[QuickFilters]) are displayed in a collapsible side panel under _Widget Filters_ once a widget is maximized.
 
 * _Dashboard filters_, on the other hand, are displayed in a collapsible panel on the right-hand side.
 
-For more information on Dashboard Filters, check out link:http://help.infragistics.com/reportplus/dashboard-filters-and-binding[this section].
+For more information on Dashboard Filters, check out link:dashboard-filters-and-binding[this section].
 
 === View & Edit Modes
 
