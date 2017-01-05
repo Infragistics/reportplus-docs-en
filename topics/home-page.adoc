@@ -23,7 +23,7 @@ ReportPlus brings its powerful creation and viewing experience to Windows. Easil
 [cols="20%,40%"]
 |===
 
-|image:images/CreateDashboards.png[CreateDashboards]|link:http://help.infragistics.com/reportplus/dashboard-creating-process[*Create new dashboards*]: ReportPlus is a self-service BI tool that enables anyone to do dashboard reporting. You can also quickly and easily create, edit and share your reports.
+|image:images/CreateDashboards.png[CreateDashboards]|link:dashboard-creating-process[*Create new dashboards*]: ReportPlus is a self-service BI tool that enables anyone to do dashboard reporting. You can also quickly and easily create, edit and share your reports.
 
 
 |image:images/ConnectDataSources.png[ConnectDataSources] |link:http://help.infragistics.com/reportplus/how-to-configure-data-sources[*Connect to different data sources*]: Connect to popular Enterprise data sources without setting anything up on the server. Access 20 different data sources, including link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#ExcelCSVGoogleSheets[Excel and Google Sheets], link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#MicrosoftSQLServer[SQL Server], link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#Oracle[Oracle], link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#MySQL[MySQL], link:http://help.infragistics.com/reportplus/how-to-configure-data-sources#GoogleAnalytics[Google Analytics] and more.
