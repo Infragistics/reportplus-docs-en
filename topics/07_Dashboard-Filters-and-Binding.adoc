@@ -64,7 +64,7 @@ In this dialog, you must configure:
 [#ParameterBinding]
 == Parameter Binding
 
-The data sets used in the creation of a dashboard may have parameters depending on the data source they were retrieved form. For instance, if an Excel spreadsheet is used as a widget's data source, then it will have as parameters the _Sheet Name_ used, and the range of cells within than sheet. On the other hand, data sources such as link:working-with-data-sources#WorkingWithMicrosoftReportingServices[Reporting Services] reports have their own parameters which are defined as part of the report definition. 
+The data sets used in the creation of a dashboard may have parameters depending on the data source they were retrieved form. For instance, if an Excel spreadsheet is used as a widget's data source, then it will have as parameters the _Sheet Name_ used, and the range of cells within than sheet. On the other hand, data sources such as link:advanced-data-sources-configuration#WorkingWithMicrosoftReportingServices[Reporting Services] reports have their own parameters which are defined as part of the report definition.
 
 Dashboard Filters allow to modify these parameters dynamically depending on the value selection in the dashboard filter. This can be used for instance to target different sheets within one same Excel spreadsheet. On occasion Excel spreadsheets have different sheets with the same structure of data, but with different dimensions of analysis, such as different months, or different clients, etc. Parameter binding enables to switch the Excel sheet used, or the parameter sent to the server with a simple click in the dashboard filters list. 
 
