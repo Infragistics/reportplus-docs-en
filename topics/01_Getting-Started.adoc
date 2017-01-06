@@ -12,8 +12,6 @@
 
 ReportPlus is a self-service, cross-platform business intelligence tool that puts the power in your hands to do dashboard reporting - all without the need for custom programming. With ReportPlus you can quickly create and edit dashboards, easily query and filter enterprise data sources, build meaningful visualization over data and effortlessly share your work with others whether or not they are existing ReportPlus users.
 
-
-
 == Dashboard Selector
 
 When you first open ReportPlus, you are greeted by a _dashboard selector_ which gives you the ability to:
@@ -58,7 +56,7 @@ image::images/GettingStarted/FlipGrid_Desktop.png[FlipGrid_Desktop]
 
 It is possible to *filter information* at a widget or a dashboard level. 
 
-* _Widget filters_ (a.k.a. link::data-filters#QuickFilters[QuickFilters]) are displayed in a collapsible side panel under _Widget Filters_ once a widget is maximized.
+* _Widget filters_ (a.k.a. link:data-filters#QuickFilters[QuickFilters]) are displayed in a collapsible side panel under _Widget Filters_ once a widget is maximized.
 
 * _Dashboard filters_, on the other hand, are displayed in a collapsible panel on the right-hand side.
 
