@@ -50,6 +50,12 @@ the underlying data model supports it.
 
 image::images/GettingStarted/ChartDrillDownPopover_Desktop.png[ChartDrillDownPopover_Desktop]
 
+In addition to this, you can also switch the maximized view to other visualizations or look at the data behind your chart by clicking
+the *small chart icon* in the top right corner. Different possibilities will be displayed depending on the starting visualization. The changes
+to the visualization will not be saved unless you enter Edit mode and explicitly save the changes.
+
+image::images/GettingStarted/ChartChangeVisualizationViewMode_Desktop.png[ChartChangeVisualizationViewMode_Desktop]
+
 You can also switch views and look at the data behind your chart if you click on *#View Table* in the top right corner.
 
 image::images/GettingStarted/FlipGrid_Desktop.png[FlipGrid_Desktop]
