@@ -56,7 +56,7 @@ to the visualization will not be saved unless you enter Edit mode and explicitly
 
 image::images/GettingStarted/ChartChangeVisualizationViewMode_Desktop.png[ChartChangeVisualizationViewMode_Desktop]
 
-You can also switch views and look at the data behind your chart if you click on *#View Table* in the top right corner.
+You can also switch views and look at the data behind your chart if you click on *#View Data* in the top right corner.
 
 image::images/GettingStarted/FlipGrid_Desktop.png[FlipGrid_Desktop]
 
