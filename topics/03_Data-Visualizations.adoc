@@ -12,7 +12,7 @@
 
 In order for users to get the most insight possible out of business data, ReportPlus Desktop provides several options to customize the way information is visualized. This article describes different data visualization & styling options available when presenting data and building your dashboard.
 
-There are six visualization types:
+There are seven visualization types:
 
 * link:#GridView[Grid View]
 * link:#TextView[Text View]
@@ -53,7 +53,7 @@ amounts of data, the preferred approach may be to "just show the
 numbers"_.
 
 [#ConditionalFormatting]
-=== Conditional Formatting
+==== Conditional Formatting
 
 The grid view, among other views, allows you to provide different formatting of the cell depending on the values found in a numeric column. For instance, values in the lower 50% range of a grid, can be colored with a red adorner to signal a problem. 
 
