@@ -620,7 +620,14 @@ f. *Account*: after clicking _Next_, a new dialog will be displayed. You can eit
 [#Sybase]
 == Sybase
 
-To configure a Sybase Data Source, you will need to enter the following information:
+Before you configure a Sybase data source, you will need to get the *Sybase.AdoNet4.AseClient.dll* assembly installed on your machine. Make sure you close ReportPlus before you start the installation in order to avoid re-starting it later. In order to do install the assembly:
+
+1. Download the link:https://www.sap.com/cmp/syb/crm-xu15-int-asewindm/index.html[*SAP ASE Suite*] through the SAP website.
+2. Double click the "*setup.exe*" file.
+2.	Select the "*Custom*" installation option when prompted.
+3. Check only the "*ADO.NET*" feature and install it.
+
+After doing so, configure the Sybase data source by entering the following information:
 
 image::images/ConfiguringDataSources/EnterSybasedetails_Desktop.png[EnterSybasedetails_Desktop]
 
