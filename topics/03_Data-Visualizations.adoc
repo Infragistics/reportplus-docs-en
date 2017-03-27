@@ -298,6 +298,6 @@ In addition to this, you can also configure the *Percentage Distribution* for th
 
 image::images/DataVisualizations/PivotEditorView_StackedPercentageDistribution_Desktop.png[PivotEditorView_StackedPercentageDistribution_Desktop]
 
-For Funnels, Pie and Doughnut charts, you will also to change the slice labels to display values, percentages, or both at the same time.
+For Funnels, Pie and Doughnut charts, you will also be able to change the slice labels to display values, percentages, or both at the same time.
 
 image::images/DataVisualizations/PivotEditorViewSliceLabels_Desktop.png[PivotEditorViewSliceLabels_Desktop]
