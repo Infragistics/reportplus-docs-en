@@ -1,0 +1,545 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link media="all" rel="stylesheet" href="#path#/ReportPlus-Help-Styles.css"/>
+</head>
+<body>
+
+<div class="header">
+    <img src="#path#/rplus.png" alt="Keyboard img" class="logo" width="130">
+
+    <h1>Data Visualization</h1>
+</div>
+<div class="border gradient"></div>
+
+
+<div id="content">
+    <chapter>
+
+        <p><span>
+In order for users to get the all possible insights out of their business data, ReportPlus provides several options to customize the way information is visualized.
+This document describes different data visualization &amp; styling options available when presenting data and building your dashboard.
+</span></p>
+
+        <p><span>
+    <ifipad>
+        Once a data set is added to the Dashboard Editor, the Widget Editor is displayed with the visualization options
+        menu presented in the upper part of the right-hand panel with a set of icons for the different visualization
+        types. The lower part displays the configuration options for the currently selected visualization type, while
+        the visualization preview is displayed in the central section of the screen.
+    </ifipad>
+    <ifiphone>
+        Once a data set is added to the Dashboard Editor, the Widget Editor is displayed with the visualization options
+		menu presented in the <i>Visualization</i> tab. The visualization preview can be accessed by tapping the <i>hamburger</i> icon on the 
+		top left corner, while the current visualization's settings can be accessed by doing a right-to-left swipe or tapping
+		the overflow menu in the right-hand panel.
+    </ifiphone>
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorView#device#.png" style="width:#imgWidth#px;">
+        </div>
+        <ifiphone>
+            <br/>
+
+            <div>
+                <img src="#path#/PivotEditorViewGridViewSettings#device#.png" style="width:#imgWidth#px;">
+            </div>
+        </ifiphone>
+        <div>
+            <h2 id='GridView'>Grid View</h2>
+        </div>
+        <p><span>
+    The grid view is the default visualization option for displaying data and it presents the information in a matrix. You can resize the width of a column in the grid just by tapping the grid header, which will highlight the column in the grid, and then drag the resize handle in the column header. Slide it left or right to modify the column&#39;s width.
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewGridView#device#.png" style="width:#imgWidth#px;">
+        </div>
+	 <p>
+	    <span>
+		   You can adjust your font size by going to <b>Style</b> under <b>Grid Settings</b> and choosing a different size. The default size is <i>Small</i>. The <i>Medium</i> size will increase the size
+		   by 2px, whereas <i>Large</i> will increase by 4px.
+	    </span>
+	 </p>
+	  <div>
+		<img src="#path#/PivotEditorGridViewSettings#device#.png" style="width:#imgWidth#px;">
+	  </div>
+	  <p>
+	    <span>
+		   You can also set the first column to be in a fixed position by sliding the <b>First column fixed</b> switch under <b>Grid Settings</b>. This is particularly useful when working with
+		   many columns.
+		</span>
+	  </p>
+        <p><span>
+<b>Note:</b> <i>The grid view is suitable in a dashboard when the number of rows, and columns is less than 10. When you&#39;re
+            dealing with small amounts of data, the preferred approach may be to &quot;just show the numbers&quot;.</i>
+</span></p>
+       <div>
+			<h3 id='AdHocHierarchies'>Ad-Hoc Hierarchies</h4>
+      </div>
+      <p>
+        <span>
+			ReportPlus automatically creates a hierarchy for date fields with a Year-Month-Date structure. The ad-hoc hierarchy feature allows you to hierarchically analyze the data in grid visualization,
+			allowing ReportPlus to create a new hiearchy with the fields located in the <b>Rows</b> area of the pivot table.
+		</span>
+      </p>
+	  <div>
+  		<img src="#path#/AdHocHierarchies#device#.png" style="width:#imgWidth#px;">
+	  </div>
+	  <p>
+		<span>
+			This feature applies to plain data sources (for example, SQL tables, Excel spreadsheets or CSV files) and not multidimensional data sources like Analysis Services. For those cases,
+			the hierarchies are defined on the server side, and ReportPlus supports the expand and drill operations.
+		</span>
+	  </p>
+       <div>
+        <h4 id="#path#/EnablingAdHocHierarchies#device#.png">Enabling Ad-Hoc Hierarchies</h4>
+      </div>
+	  <p>
+		<span>
+			To enable ad-hoc hierarchies, just drag two or more fields into the <b>Rows</b> placeholder of the pivot table. Once you have done so, you will see <i>Hierarchy</i> option under
+			Grid Settings. Tap it and adjust the slider to enable hierarchies. You can choose to include all fields in the Rows placeholder, or include some of them.
+		</span>
+	  </p>
+	  <div>
+		<img src="#path#AdHocHierarchiesFields#device#.png" style="width:#imgWidth#px;">
+	  </div>
+	  <p>
+		<span>
+			When you set this up, the structure and behavior of the data table will change. As seen in the screenshot above, a single column will replace the multiple columns specified under &quot;Number of
+			Fields&quot;. In the grid visualization, the column&#39;s title will be updated with the names of the fields in your hierarchy. 
+			In addition to drilling up and down, you can now expand each Department to show  the <i>FullName</i> for your employees in the example presented in the screenshot.
+		</span>
+	  </p>
+        <div>
+            <h3 id='ConditionalFormatting'>Conditional Formatting</h3>
+        </div>
+        <p><span>
+The grid view, among other views, allows you to provide different formatting of the cell depending on the values found in a numeric column. For instance, values in the lower 50% range of a grid can be colored with a red adorner to signal a problem.
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewGridCondFormatting#device#.png" style="width:#imgWidth#px;">
+        </div>
+
+        <div>
+            <h4>Enabling Conditional Formatting</h4>
+        </div>
+        <p><span>
+To enable conditional formatting on a numeric column, tap the column item on the fields list to prompt the column settings dialog. If the grid view is selected, <b>and
+            the column data type is numeric</b>, then the conditional formatting configuration item is displayed, but is initially disabled.
+</span></p>
+
+        <p><span>
+The conditional formatting configuration allows you to establish styling rules, per ranges of data, up to three ranges (typically used for styling, upper, middle, and lower ranges). Depending on the nature of the information, low values might be a good or bad sign, so you have flexibility to configure the styling as best suits your situation.
+</span></p>
+
+        <p><span>
+Styling options in conditional formatting include setting the adorner color as well as the marker icons, which come from a pre-configured set that ships with ReportPlus.
+</span></p>
+
+        <div>
+            <h2 id='TextView'>Text View</h2>
+        </div>
+        <p><span>
+The Text View displays information that follows a <i>key-value</i> pattern, such as a contact&#39;s card information (e.g. Name: John).
+It does so by displaying only the first row of data paired with the column&#39;s label.
+In order to display a specific row it&#39;s possible to apply filters to make sure that&#39;s the only row displayed, so it&#39;s the one picked up by the Text View.
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewTextView#device#.png" style="width:#imgWidth#px;">
+        </div>
+
+        <p><span>
+<b>The Text View supports conditional formatting</b>, as explained in the previous section (the ability to style with different colors, and icons). The text view is useful when you want to allow the viewer to easily digest the attributes of a single entity. Examples include  product specifications, or a person&#39;s contact information, etc.
+</span></p>
+
+        <div>
+            <h2 id='MapView'>Map View</h2>
+        </div>
+        <p><span>
+To display information graphically on a map, you can select the Map visualization option, which attempts to bind each row in the data set to a location in the world map.    
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewMapView#device#.png" style="width:#imgWidth#px;">
+        </div>
+        <p><span>
+The map type displayed can either be the standard political map, a satellite picture, or a hybrid between the two. This is configured through the map Type settings.
+</span></p>
+
+        <div>
+            <h3>Geo Location</h3>
+        </div>
+        <p><span>
+In ReportPlus, the intelligence of where to plot points in the map, based on the data set values, is based on one of two methods: geocoding or geo-coordinates (e.g., latitude and longitude).
+</span></p>
+
+        <p><span>
+<b>Geocoding</b> assumes that the text value describing the location comes in one of the datasets columns, and will be translated into a geographical location. This location feature works well for country, state, and town names, but for more ambiguous locations it might not generate the expected result.
+</span></p>
+
+        <p><span>
+    On the other hand, <b>geo-coordinates</b> assume that latitude and longitude information comes as part of the data set, and is present in some columns. Accepted formats by ReportPlus are two:
+    <ul>
+        <li>Only one column containing both latitude and longitude information separated by a comma.</li>
+        <li>Two different columns that must be mapped to latitude, and longitude respectively.</li>
+    </ul>
+</span></p>
+        <p><span>
+By default, the map is configured to attempt geocoding based-localization, based on the values of the first column of type text. To change the default configuration, you must change the <i>Geo
+            Location Type</i> setting in the Map configuration dialog, to switch between geocoding, and geo-coordinates.
+</span></p>
+
+        <p><span>
+To change the column that contains the expected location information, you must change the selection associated to <i>Geocoding
+            Column</i>.
+</span></p>
+
+        <div>
+            <h3>Formatting</h3>
+        </div>
+        <p><span>
+By default, the map view plots each row of the data set with a blue pin marker in the map. Whenever you tap on a pin, the text contained in the column configured as <i>Label</i> is displayed.
+</span></p>
+
+        <p><span>
+Sometimes you want to do more than just displaying a pin in a map. For instance, you may need to display a magnitude for each point or a state. For these cases, ReportPlus allows you to associate a numeric value column to the point that was located using the methods described in the previous section. This allows two additional formatting capabilities in the map view. The first one is to display colored circles sized by the magnitude of the value. This is achieved by selecting a value in the <i>Value
+            Color</i> configuration in the map settings.
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewMapViewMagnitude#device#.png" style="width:#imgWidth#px;">
+        </div>
+        <p><span>
+The second formatting option is to enable <b>conditional formatting on the map view</b> and allow different icon markers to appear differently on the map. This is achieved through the conditional formatting configuration of the numeric column selected as <i>Value</i> in the <i>Map View</i> settings.
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewMapViewCondFormatting#device#.png" style="width:#imgWidth#px;">
+        </div>
+
+        <p><span>
+By default, the popup displays a text label, but you can change this behavior by selecting a value column. By doing so, the corresponding value will be shown in the popup when tapping a pin in the map.
+</span></p>
+
+	  <div>
+        <h3 id='HeatMapView'>Heat Map View</h3>
+      </div>
+      <p>
+        <span>
+          The Heat Map view displays information graphically on a map with colors. As with the Map View, each row in the data set will be bound to a location in the world map. The Heat Map, however, will identify high-density areas as 
+		  &#39;hot&#39; and low-density areas as &#39;cold&#39;, so you will be able to quickly identify areas with high data intensity.
+        </span>
+      </p>
+	   <div>
+        <img src="#path#/PivotEditorViewHeatMapView#device#.png" style="width:#imgWidth#px;">
+      </div>
+	  <p>
+	    <span>
+		As with the Map View, the map type displayed can either be the standard political map, a satellite picture or a hybrid between the two. The Heat Map settings has additional settings to configure called &quot;Layers&quot;</a>.
+		</span>
+	  </p>
+      <div>
+        <h4 id='HeatMapLayers'>Heat Map Layers</h4>
+      </div>
+	  <p>
+		<span>
+			You can add an additional layer to your Heat Map visualization by tapping the <b>Pins and HeatMap</b> option under <i>Layers</i>. The pins will show the exact location of your data while retaining the visual representation of the heat map.
+		</span>	  
+	  </p>
+	  <div>
+		<img src="#path#/PivotEditorViewHeatMapLayersView#device#.png" style="width:#imgWidth#px;">
+	  </div>
+	  <div>
+		<h4 id='HeatMapWeight'>Assigning Weight to a Heat Map variable</h4>
+	  </div>
+	  <p>
+		<span>
+			The Heat Map offers a simple yet effective way to display information in relation to the point of distribution through color intensity. However, you might want to display some information more prominently in the 
+			map, which is when the <b>Weight</b> you assign to a variable comes into play. Regular Heat Maps only consider the point of distribution to determine the color intensity, but if you use the <i>Weight</i> variable, 
+			the Heat Map will use it to determine how much intensity one pin contributes.
+		</span>	  
+	  </p>
+	  <div>
+	  	<img src="#path#/PivotEditorViewHeatMapWeight#device#.png" style="width:#imgWidth#px;">
+	  </div>
+	  
+	  <div>
+        <h2 id='TreeMapView'>Tree Map View</h2>
+      </div>
+	  <p>
+        <span>
+		  The Tree Map visualization displays information hierarchically using tiles of different sizes across your widget. The visualization aims to help you discover patterns, with the proportion of each rectangle 
+		  representing a different metric.
+        </span>
+      </p>
+	  <div>
+   	    <img src="#path#/PivotEditorViewTreeMapView#device#.png" style="width:#imgWidth#px;">
+	  </div>
+	  <p>
+		<span>
+		The size of each tile will be determined by the field selected in the <i>Value Column</i> of the Tree Map Settings. Tree Maps are useful to display large quantities of data and, in addition, the visualization
+ 	    displays your data according to the screen size available. When maximizing or viewing the widget in preview mode, shapes change to adapt to the new screen size.
+		</span>
+	  </p>
+	  <div>
+		<img src="#path#/PivotEditorViewTreeMapViewAdapted#device#.png" style="width:#imgWidth#px;">
+	  </div>
+      <div>
+        <h4 id='TreeMapLayouts'>Tree Map Layouts</h4>
+      </div>
+	  <p>
+		<span>
+		There are three different layouts to choose from when using the Tree Map:
+			<ul>
+				<li><b>Squarified</b>: this is the default layout for the Tree Map. All data is represented in tiles, which makes data easier to
+				identify patterns and relations between similar data.</li>
+				<li><b>Slice and Dice</b>: the direction is changed to a horizontal-only layout, where the sizes of each &quot;slice&quot; is sized
+				according to the field selected in the <i>Value Column</i>. This is useful with small amounts of data. </li>
+				<li><b>Strip</b>: the strip layout is a hybrid between the Squarified and the Slice-and-Dice layouts. The direction is changed to
+				a horizontal layout, but with the tiles used in the squarified layout.</li>
+			</ul>
+		</span>	  
+	  </p>
+	  <p>
+		<span>
+		To change layouts, go to the <b>Tree Map Settings</b> section, tap the <i>Layout</i> option, and select the layout you need.
+		</span>
+	  </p>
+	  <div>
+		<img src="#path#/PivotEditorViewTreeMapViewLayout#device#.png" style="width:#imgWidth#px;">
+	  </div>
+      <div>
+        <h4 id='TreeMapShowDetails'>Show Details</h4>
+      </div>
+	  <div>
+		<p>
+			<span>
+				In addition to the layout, you can also manage the level of detail you want your Tree Map to have. If you add one or more columns under <i>Columns</i>, you will be able to click <b>Show Details</b>. 
+				This will show the Columns field within the Rows field in the Tree Map. 
+			</span>
+		</p>
+	  </div>
+	  <div>
+		<img src="#path#/PivotEditorViewTreeMapShowDetails#device#.png" style="width:#imgWidth#px;">
+	  </div>	  
+       <div>
+            <h2 id='WebView'>Web View</h2>
+        </div>
+        <p><span>
+The Web View displays information in an embedded browser by making a request to a URL and displaying the results. It works <b>only with the
+first row in the data set</b>, and <b>displays the contents of the column set as URL Field</b> in the visualization's <i>Image Settings</i>.
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewWebView#device#.png" style="width:#imgWidth#px;">
+        </div>
+        <p><span>
+This view is a very versatile visualization option, which can be used to display images, HTML pages, or even text content. If the URL field setting
+is configured to a text column, it will duisplay the text; if it&#39;s a valid URL, it will retrieve the contents of that URL and display the page.
+</span></p>
+
+        <div>
+            <h2 id='GaugeView'>Gauge View</h2>
+        </div>
+        <p><span>
+The Gauge View displays a single value or a list of values, comparing them with range thresholds. The gauge also allows for conditional formatting of the different ranges. To select gauge view, tap on the gauge-shaped icon on the Visualization options menu.
+</span></p>
+
+        <p><span>
+ReportPlus gauge support comes in four different flavors: Linear, Circular, Text abd Bullet Graph gauge. You can switch between gauge types by changing the settings selection in the gauge <i>Type</i> field.
+</span></p>
+
+        <div>
+            <h3>Linear Gauge</h3>
+        </div>
+        <p><span>
+Linear Gauge displays a label, which value is taken from the <i>Label Column</i> configuration, and a value that comes from the configured <i>Value
+            Column</i>. The value is charted as a rectangle within the ranged gauge, and also appears to the right of the gauge in a numeric format.
+</span></p>
+
+        <p><span>
+This gauge type is suitable to compare the values of different rows side by side.
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewLinearGaugeView#device#.png" style="width:#imgWidth#px;">
+        </div>
+        <div>
+            <h3>Circular Gauge</h3>
+        </div>
+        <p><span>
+The circular gauge displays the band&#39;s minimum and maximum thresholds and the current value. It also paints the background with the color of the current range.
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewCircularGaugeView#device#.png" style="width:#imgWidth#px;">
+        </div>
+
+        <div>
+            <h3>Text Gauge</h3>
+        </div>
+
+        <p><span>
+The text gauge simply displays the text in a large font. This flavor is suitable for very high priority metrics.
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewTextGaugeView#device#.png" style="width:#imgWidth#px;">
+        </div>
+
+        <div>
+            <h3>Bullet Graph Gauge</h3>
+        </div>
+
+        <p><span>
+The Bullet Graph gauge is very similar to a Linear gauge, it displays a label from the <i>Label Column</i> and a value from the <i>Value Column</i>. The value is charted as a horizontal line and is also displayed on the right with numeric format.
+        </span></p>
+
+        <p><span>
+It also adds a new visual indicator to the Linear gauge: a vertical mark that is based on a target value from the <i>Target column</i>. This new indicator is retrieved from a numeric column, meaning that <b>you need two numeric columns and a text column to configure this view</b>.
+</span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewBulletGraphGaugeView#device#.png" style="width:#imgWidth#px;">
+        </div>
+
+        <p><span>
+The bullet graph is useful for comparing values side by side, while also evaluating the performance from the value (horizontal line) against the target value (vertical mark).
+    </span></p>
+
+        <div>
+            <h3>Bounds configuration</h3>
+        </div>
+        <p><span>
+Each gauge type has a common band range configuration, which is similar to the one used in conditional formatting. The configuration dialog requires:
+        </span></p>
+        <ul>
+            <li><b>Minimum, and maximum values.</b>These values are automatically set as the lowest and highest value in
+                the data set for the specified value column, but they can manually overridden with constant values.
+            </li>
+            <li><b>Bands configuration.</b>This section requires you to establish two thresholds to split the range in
+                three spaces. The thresholds can be defined as a percentage, or as a constant value. Additionally, the
+                definition of he color to associate to each band is configured here. By default the upper band is colored green, the
+                middle yellow, and the lower red.
+            </li>
+        </ul>
+        <div>
+            <img src="#path#/PivotEditorViewGaugeBandSettings#device#.png" style="width:#imgWidth#px;">
+        </div>
+        <div>
+            <h2 id='ChartingData'>Charting Data</h2>
+        </div>
+        <p><span>
+        You can display data in charts either by following the <i>Chart Wizard</i> or skipping the wizard and selecting an available chart in the Visualization options menu.
+        The Chart Wizard will guide you through a sequence of dialogs that help you define which is the best chart given your requirements. To start the wizard, tap the magic wand icon on top of a chart.
+    </span></p>
+
+        <div>
+            <img src="#path#/ChartWizard#device#.png" style="width:#imgWidth#px;">
+        </div>
+        <p><span>
+    You can select any of the chart icons displayed in the Visualization's menu as long as it is suitable for your data. ReportPlus will
+	select the first numeric columns in the dataset and attempts to match the selected chart type data series requirements. For instance,
+	in a Column Chart all numeric columns are added to the chart, and for an OHLC chart, different columns with the Open, High, Low and 
+	Close series are expected. The automatic selection of columns done by ReportPlus can be modified in the <i>Chart Settings</i> configuration.
+    </span></p>
+
+        <p><span>
+        There are a number of available chart types:
+    </span></p>
+        <ul>
+            <li>Single series chart types
+                <ul>
+                    <li>Column Chart</li>
+                    <li>Bar Chart</li>
+                    <li>Line Chart</li>
+                    <li>Area Chart</li>
+                    <li>Spline Chart</li>
+                    <li>Spline with Area Chart</li>
+                    <li>Circular (aka Radial) Chart</li>
+                    <li>Pie Chart</li>
+                </ul>
+            </li>
+            <li>Two or more series required chart types
+                <ul>
+                    <li>2 Y-Axis Chart</li>
+                    <li>Stack Chart</li>
+                    <li>Stack Area Chart</li>
+                    <li>Scatter Chart</li>
+                    <li>Bubble Chart</li>
+                    <li>OHLC Chart</li>
+                    <li>Candlestick Chart</li>
+                </ul>
+            </li>
+        </ul>
+        <div>
+            <img src="#path#/PivotEditorView2YAxis#device#.png" style="width:#imgWidth#px;">
+        </div>
+        <p><span>
+General configuration settings for chart types are described in the following sections.
+    </span></p>
+
+        <div>
+            <h2>Chart Trendlines</h2>
+        </div>
+        <p><span>
+Chart settings enable the display of trend lines, which are lines that are painted across a chart, based on an algorithm. Trendlines are a very simple, yet powerful tool to help you determine trends in data sets, and define thresholds for taking action.
+          Among the supported algorithms are, among others, Linear and Exponential Fits, Simple and Weighted Averages. These can be accessed from the <i>Advanced</i> tab of the <i>Chart Settings</i> menu.
+    </span></p>
+
+        <div>
+            <h2>Chart Data</h2>
+        </div>
+        <p><span>
+        When you choose a chart type, ReportPlus will automatically select the columns used for the X Axis &amp; Y Axis data. But this selection may not always have the expected outcome when visualizing the data. You may use the Chart Wizard to follow a more guided process to define the chart columns required by each chart type, or change the columns selection in the Chart Data configuration. The Chart Data configuration option allows you to select which columns must be taken into account for the chart creation. This involves selecting a column for populating the X Axis, and numeric columns to chart in the Y Axis.
+    </span></p>
+
+        <p><span>
+        In the 2 Y-Axis chart, you can select which numeric columns are displayed in the left and right axis.
+    </span></p>
+
+        <div>
+            <img src="#path#/PivotEditorViewChartDataSettings#device#.png" style="width:#imgWidth#px;">
+        </div>
+        <div>
+            <h2>Advanced Chart Settings</h2>
+        </div>
+        <p><span>
+        ReportPlus also allows to configure the <b>Y Axis Configuration</b> by setting the range of minimum and maximum values for the Y Axis and to specify whether it&#39;s linear (by default) or logarithmic.
+    </span></p>
+		<p><span>
+		In addition to this, you can also configure the <b>Percentage Distribution</b> for the <i>stacked series charts</i>. This will override the 0-100 default scale and allow you
+		to visualize the percentage distribution of the values in the chart.
+	</span></p>
+	  <div>
+		<img src="#path#/PivotEditorView_StackedPercentageDistribution#device#.png" style="width:#imgWidth#px;">
+	  </div>
+	  <p><span>
+	  For Funnels, Pie and Doughnut charts, you will also be able to change the <b>slice labels</b> to display values, percentages, or both at the same time.
+	</span></p>
+	 <div>
+	 <img src="#path#/PivotEditorViewSliceLabels#device#.png" style="width:#imgWidth#px;">
+	 </div>
+        <div>
+            <h1 id='DashboardStyling'>Dashboard Styling</h1>
+        </div>
+        <p><span>
+ReportPlus supports styling of a dashboard through the use of one of the included themes. Currently, you cna apply more than 20 different themes.
+        </span></p>
+
+        <p><span>
+In order to change dashboard style settings, go to <b>Style Settings</b> which is the second icon in the top right corner,
+and then select the desired theme.
+        </span></p>
+
+        <div>
+            <img src="#path#/DashboardStyle#device#.png" style="width:#imgWidth#px;">
+        </div>
+    </chapter>
+</div>
+</body>
+</html>
