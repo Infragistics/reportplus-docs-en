@@ -294,7 +294,7 @@ image::images/DataVisualizations/PivotEditorView2YAxis_Desktop.png[PivotEditorVi
 
 ReportPlus also allows to configure the *Axis Configuration* by setting the range of minimum and maximum values for the axis and to specify whether it's linear (by default) or logarithmic.
 
-In addition to this, you can also configure the *Percentage Distribution* for the _stacked series charts_. This will override the 0-100 default scale and allow you to visualize the percentage distribution of the values in the chart.
+In addition to this, you can configure the *Percentage Distribution* option for the _stacked series charts_. It allows you to switch between values and percentage distribution scales for those types of charts.
 
 image::images/DataVisualizations/PivotEditorView_StackedPercentageDistribution_Desktop.png[PivotEditorView_StackedPercentageDistribution_Desktop]
 
