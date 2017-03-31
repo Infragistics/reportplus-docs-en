@@ -44,8 +44,11 @@ Follow link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs
 
 ==== ReportPlus Developer Documents
 
-{nbsp} +
+[cols="20%,40%"]
+|===
 
-image:images/pdf-icon.png[PDF-icon] link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Embedded%20-%20Desktop%20SDK%20Guide.pdf[ReportPlus Embedded - Desktop SDK]
+|image:images/pdf-icon.png[PDF-ICON] {nbsp} link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Embedded%20-%20Desktop%20SDK%20Guide.pdf[Embedded SDK Guide]|The main goal of this document is to allow ReportPlus dashboards (.rplus files) to be displayed and embedded into 3rd party applications. The document will provide the means to view existing dashboards within a 3rd party application.
 
-image:images/doc-icon.png[DPC-iCON] link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Architecture%20Guide.pdf[ReportPlus Architecture Guide]
+|image:images/doc-icon.png[DOC-ICON] {nbsp} link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Architecture%20Guide.pdf[Architecture Guide]|The purpose of this guide is to build a knowledge base to help developers and solution architects build effective quality applications using the ReportPlus platforms. The document will provide guidance information on every specific structure and explains the application behavior in easy-to-understand flow diagrams. It is presented in sections that correspond to major architecture and design focus points, and is intended to be used as a reference source.
+
+|===
