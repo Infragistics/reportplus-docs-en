@@ -16,6 +16,8 @@ image::images/HomeDesktopImage.png[HomeDesktopImage]
 
 ReportPlus brings its powerful creation and viewing experience to Windows. Easily create dashboards and reports with an intuitive drag and drop interface.
 
+Follow link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Embedded%20-%20Desktop%20SDK%20Guide.pdf[this link] for the ReportPlus Embedded SDK guide.
+
 {nbsp} +
 
 ==== ReportPlus Desktop's features include:
@@ -37,3 +39,10 @@ ReportPlus brings its powerful creation and viewing experience to Windows. Easil
 |image:images/SaveDashboard.png[SaveDashboard] |*link:getting-started[Access], link:dashboard-creating-process#_sharing_insights[Share] and link:export-options[Export]*: Access your dashboards anywhere; even when you are offline, your dahsboards will by synched across all your devices (including iOS and Android). You can also share your insights with other ReportPlus users for better collaboration or export dashboards as PDF, PowerPoint slides, or images. Make it easier for everyone in the team to tailor your dashboards and help improve the decision making for everyone.
 
 |===
+
+---
+
+==== ReportPlus Developer Documents
+
+image:images/pdf-icon.png[pdf-icon]  link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Embedded%20-%20Desktop%20SDK%20Guide.pdf[ReportPlus Embedded - Desktop SDK] 
+image:images/pdf-icon.png[pdf-icon] link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Architecture%20Guide.pdf[ReportPlus Architecture Guide]
