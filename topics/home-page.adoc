@@ -44,5 +44,8 @@ Follow link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs
 
 ==== ReportPlus Developer Documents
 
-image:images/pdf-icon.png[pdf-icon]  link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Embedded%20-%20Desktop%20SDK%20Guide.pdf[ReportPlus Embedded - Desktop SDK] 
-image:images/pdf-icon.png[pdf-icon] link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Architecture%20Guide.pdf[ReportPlus Architecture Guide]
+{nbsp} +
+
+image:images/pdf-icon.png[PDF-icon] link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Embedded%20-%20Desktop%20SDK%20Guide.pdf[ReportPlus Embedded - Desktop SDK]
+
+image:images/doc-icon.png[DPC-iCON] link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Architecture%20Guide.pdf[ReportPlus Architecture Guide]
