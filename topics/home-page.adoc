@@ -44,7 +44,7 @@ Follow link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs
 
 ==== ReportPlus Developer Documents
 
-[cols="20%,40%"]
+[width="100%"]
 |===
 
 |image:images/pdf-icon.png[PDF-ICON] {nbsp} link:http://download.infragistics.com/marketing/ReportPlus/Developer-Docs/ReportPlus%20Embedded%20-%20Desktop%20SDK%20Guide.pdf[Embedded SDK Guide]|The main goal of this document is to allow ReportPlus dashboards (.rplus files) to be displayed and embedded into 3rd party applications. The document will provide the means to view existing dashboards within a 3rd party application.
